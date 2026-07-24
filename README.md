@@ -1,4 +1,4 @@
-Prescriptive Soft-Sensor for Distillation C4 SlippageA Hybrid Thermodynamic-Artificial Intelligence Architecture
+Prescriptive Soft-Sensor for Distillation Slippage
 
 PROPRIETARY NOTICE:
 This repository contains the architectural overview, methodology, and validation results of the Soft Sensor. Due to the proprietary nature of the industrial deployment, operational LIMS and DCS datasets are strictly confidential and are not available for public distribution.
