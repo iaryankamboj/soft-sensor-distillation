@@ -37,7 +37,7 @@ The architecture was evaluated using a strict chronological walk-forward split t
 <img width="2969" height="1464" alt="image" src="https://raw.githubusercontent.com/iaryankamboj/soft-sensor-distillation/refs/heads/main/2_final_architecture.png" />
 <i>(Visualizing the replacement of the faulty hardware analyzer with the high-fidelity Digital Twin)</i><br>
 
-<b>Prescriptive Diagnostics (Explainable AI)</b>
+<br><b>Prescriptive Diagnostics (Explainable AI)</b>
 To ensure algorithmic transparency for board operators, explainable AI protocols were integrated. Instead of acting as a "Black Box," the sensor generates real-time Waterfall plots, diagnosing the exact root cause of an impending C4 spike (e.g., distinguishing between a localized reboiler failure vs. an upstream feed-surge flooding event).
 
 <img width="2969" height="1464" alt="image" src="https://github.com/iaryankamboj/soft-sensor-distillation/blob/main/3_waterfall_upset_plot.png?raw=true" />
@@ -49,7 +49,7 @@ Root Cause Diagnosis (The Destabilizing Factors):
 Mitigating Factors:
 - Upstream Reflux (dp_reflux_sv = -0.385): Interestingly, the upstream Depropanizer reflux was running slightly below its historical average. The AI identified this as a mitigating factor (blue -0.05 impact) that actually prevented the spike from being significantly worse. Had the upstream unit been surging or flooding into the Debutanizer feed during this low-temperature event, the resulting bottoms contamination would have been catastrophic.
 
-Operational Value:
+Operational Value: <br>
 In a live control room, this granular level of explainability fundamentally shifts the operating paradigm. Rather than receiving a generic high-impurity alarm, board operators are instantly provided with the mathematical root cause. In this specific scenario, the operator is explicitly directed to investigate localized reboiler duty and hydraulic tray efficiency, rather than wasting critical response time hunting for upstream cracking or feedstock disturbances.
 
 <br>
